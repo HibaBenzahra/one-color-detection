@@ -24,3 +24,6 @@ This project demonstrates **real-time detection of red objects** using OpenCV an
 1. Install the required libraries using `pip install opencv-python numpy`.
 2. Run the script, and the program will display the webcam feed with detected red objects highlighted.
 3. Ensure you have a webcam connected and configured for your system.
+
+![image](https://github.com/user-attachments/assets/8598f3a6-3a7c-4349-92b7-18e5aef9cc28)
+
