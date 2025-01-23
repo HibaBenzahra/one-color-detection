@@ -1,24 +1,26 @@
-*Real-Time Red Color Detection using OpenCV
-This project demonstrates real-time detection of red objects using OpenCV and Python. The script captures video from a webcam, processes each frame to identify red regions, and highlights them with bounding boxes and labels.
+# **Real-Time Red Color Detection using OpenCV**
 
-*Key Features*
-HSV Color Space Conversion: The input frames are converted to HSV color space for easier and more precise color segmentation.
-Color Range Masking: A mask is applied to isolate pixels within the specified red color range.
-Contour Detection: Contours of the detected red regions are extracted to identify distinct objects.
-Bounding Box and Labeling: Red regions exceeding a defined size are highlighted with a green bounding box, and labeled with the text "Red."
-Real-Time Processing: Continuously processes video frames from the webcam, allowing real-time detection.
+This project demonstrates **real-time detection of red objects** using OpenCV and Python. The script captures video from a webcam, processes each frame to identify red regions, and highlights them with bounding boxes and labels. 
 
-*How It Works*
-The webcam captures a video feed.
-Each frame is converted to HSV and masked using a defined range for the red color.
-Contours are detected from the masked image.
-Contours meeting the size criteria are highlighted with a bounding box and labeled.
-Press q to exit the program.
+## **Key Features**
+- **HSV Color Space Conversion:** The input frames are converted to HSV color space for easier and more precise color segmentation.
+- **Color Range Masking:** A mask is applied to isolate pixels within the specified red color range.
+- **Contour Detection:** Contours of the detected red regions are extracted to identify distinct objects.
+- **Bounding Box and Labeling:** Red regions exceeding a defined size are highlighted with a green bounding box and labeled with the text **"Red."**
+- **Real-Time Processing:** Continuously processes video frames from the webcam, allowing real-time detection.
 
-*Dependencies*
-OpenCV
-NumPy
+## **How It Works**
+1. The webcam captures a video feed.
+2. Each frame is converted to HSV and masked using a defined range for the red color.
+3. Contours are detected from the masked image.
+4. Contours meeting the size criteria are highlighted with a bounding box and labeled.
+5. Press **`q`** to exit the program.
 
-*Usage*
-Run the script, and the program will display the webcam feed with detected red objects highlighted. Ensure you have a webcam connected and configured for your system.
+## **Dependencies**
+- **OpenCV**
+- **NumPy**
 
+## **Usage**
+1. Install the required libraries using `pip install opencv-python numpy`.
+2. Run the script, and the program will display the webcam feed with detected red objects highlighted.
+3. Ensure you have a webcam connected and configured for your system.
