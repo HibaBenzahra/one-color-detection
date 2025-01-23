@@ -25,5 +25,8 @@ This project demonstrates **real-time detection of red objects** using OpenCV an
 2. Run the script, and the program will display the webcam feed with detected red objects highlighted.
 3. Ensure you have a webcam connected and configured for your system.
 
+## **Note**
+It may detect darker or very lighter shades of red; feel free to adjust the red color range to refine the detection.
+
 ![image](https://github.com/user-attachments/assets/8598f3a6-3a7c-4349-92b7-18e5aef9cc28)
 
